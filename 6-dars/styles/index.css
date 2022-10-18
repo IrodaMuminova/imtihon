@@ -1,0 +1,388 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.architectua {
+    width: 1140px;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header-nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav-list li a {
+    text-decoration: none;
+}
+
+.header-nav-list li {
+
+    padding: 44px 40px;
+}
+
+.container-menu {
+
+    width: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-project {
+
+    color: #BDBDBD;
+}
+
+.container-menu .menu-project .area {
+
+    margin: 320px 110px 0px 0px;
+    font-size: 64px;
+
+}
+
+.container-menu .menu-project .area2 {
+    font-size: 64px;
+    color: #333333;
+    margin: 0px 110px 0px 0px;
+}
+
+.container-menu .menu-project .menu-logo {
+    margin: 90px 110px 90px 0px;
+}
+
+.container-menu .menu-project .menu-logo img {
+    width: 53px;
+    height: 53px;
+}
+
+.menu-project-number {
+    font-size: 24px;
+}
+
+button {
+    background: #fff;
+    width: 222px;
+    height: 71px;
+    border: 0px;
+    border-color: white;
+}
+
+.menu-picture-nurtown {
+    position: relative;
+}
+
+.picture-button {
+    position: absolute;
+    margin: 759.3px 70px 400px -770px;
+    text-align: center;
+}
+
+.compani {
+    margin: 120px 0px 60px 0px;
+}
+
+.compani-menu {
+    background: #FBFBFB;
+
+}
+
+.compani-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.compani-menu-galeriya {
+    display: flex;
+    margin-right: 0px;
+}
+
+.compani-menu-galeriya-p2 {
+    margin: 60px 30px 30px 0px;
+}
+
+.compani-menu-galeriya-voris {
+    margin: 30px 30px 30px 100px
+}
+
+.p1 {
+    margin: 30px 0px 0px 100px;
+}
+
+.lorem {
+    width: 400px;
+    height: 200px;
+    margin: 0px 70px 20px 0px;
+}
+
+.head {
+    width: 354px;
+    height: 64px;
+    color: #BDBDBD;
+    font-size: 64px;
+    margin: 30px 116px 20px 0px;
+}
+
+.word-button {
+    margin: 0px 248px 30px 0px;
+}
+
+.menu-third {
+    height: 268px;
+    display: flex;
+    justify-content: center;
+}
+
+.third-menu-header {
+    width: 600px;
+    padding: 0px 81px 0px 0px;
+    margin: 0px;
+}
+
+.third-menu-header-bosh_harf {
+    width: 519px;
+    height: 64px;
+    margin: 0px 0px 30px 0px;
+    color: #BDBDBD;
+    font-family: 'TT Hoves';
+    font-weight: 300;
+    font-size: 64px;
+}
+
+.one {
+    margin: 30px 0px 0px 0px;
+    display: flex;
+
+
+
+}
+
+.one .one-first {
+    font-size: 200px;
+    font-family: 'SF Pro Display';
+    font-weight: 900;
+    padding: 0;
+    margin: 0px 15px 0px 0px;
+    width: 104px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    color: #F2F2F2;
+}
+
+.third-menu-header-kichik_harf {
+    width: 279px;
+    height: 144px;
+    margin: 0px 0px 0px 15px;
+    font-size: 22px;
+}
+
+.third-menu-word {
+    width: 420px;
+    height: 268px;
+    margin: 0px;
+}
+
+.second {
+    display: flex;
+    margin: 90px 0px 0px 0px;
+}
+
+.second .second-two {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 200px;
+    display: flex;
+    align-items: center;
+    width: 120px;
+    height: 140px;
+    color: #F2F2F2;
+    margin: 0px 15px 0px 0px;
+}
+
+.second-word {
+    width: 420px;
+    height: 144px;
+    font-size: 22px;
+    margin: 0px 0px 0px 15px;
+}
+
+.projects {
+    height: 664px;
+    margin: 120px 0px 0px 0px;
+}
+
+.projects-proyekt {
+    width: 427px;
+    height: 64px;
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    color: #BDBDBD;
+    margin: 0px 0px 60px 0px;
+}
+
+.projects-menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.projects-menu ul .list_1 {
+    margin: 0px 15px 15px 0px;
+}
+
+.projects-menu ul .list_2 {
+    margin: 0px 0px 15px 15px;
+}
+
+.projects-menu ul .list_3 {
+    margin: 15px 15px 0px 0px;
+}
+
+.projects-menu ul .list_4 {
+    margin: 15px 15px 0px 15px;
+}
+
+.projects-menu ul .list_5 {
+    margin: 15px 0px 0px 15px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background: #2C2C2C;
+}
+
+.footer-menu {
+
+    margin: 120px 0px 0px 0px;
+    height: 417px;
+    width: 1440px;
+   
+}
+
+.footer-list {
+    display: flex;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.footer-logo {
+    margin: 58px 99px 0px 116px
+}
+
+ul {
+    list-style: none;
+}
+
+.footer-informatsiya {
+    margin: 58px 157px 0px 0px;
+    height: 229px;
+}
+
+.footer-kontakti {
+    margin: 58px 71px 0px 0px;
+}
+
+.footer-seti {
+    margin: 58px 0px 0px 0px;
+}
+
+.footer-informatsiya li {
+    width: 103px;
+    height: 20px;
+    margin: 0px 16px 0px 0px;
+}
+
+.footer-informatsiya-first {
+    padding: 0px 0px 25px 0px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.footer-informatsiya-first:first-child {
+    margin-bottom: 25px;
+}
+
+.footer-kontakt-list {
+    display: flex;
+}
+
+.footer-kontakt-list-first {
+    margin: 25px 0px 0px 0px;
+}
+
+.footer-kontakt-list-second {
+    padding: 25px 0px 32px 19px;
+    width: 314px;
+    height: 72px;
+}
+
+.footer-kontakt-list_2 ul {
+    display: flex;
+}
+
+.footer-kontakt-list_2_first {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.footer-kontakt-list_2_second {
+    padding: 0px 0px 0px 13.99px;
+    width: 314px;
+    height: 24px;
+}
+
+.footer-kontakt-list_3 {
+    display: flex;
+}
+
+.footer-kontakt-list_3_second {
+    margin: 32px 0px 0px 14px;
+    width: 181px;
+    height: 24px;
+}
+
+.footer-kontakt-list_3_first {
+    padding: 32px 0px 0px 0px;
+}
+
+.seti-list {
+    display: flex;
+}
+
+.seti-list li {
+    padding-right: 40px;
+    padding-top: 26px;
+}
+.border{
+    border: 0.1px solid #FFF;
+    margin-bottom: 70px;
+}
+.manzil{
+    width: 1440px;
+    height: 22px;
+    margin-right: 591px;
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    display: flex;
+    justify-content: center;
+    
+    color: rgba(200, 200, 200, 0.5); 
+}

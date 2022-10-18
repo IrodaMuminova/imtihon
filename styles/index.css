@@ -1,0 +1,301 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1440px;
+
+    padding: 0px 135px;
+    margin: 0px auto;
+    /* background: #E5E5E5; */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.header-nav-list li {
+    padding: 44.69px 30px 30px 0px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    padding: 29.14px 0px 0px 0px;
+}
+
+main {
+    padding-top: 94px;
+}
+
+.galeriya {
+    font-weight: 300;
+    font-size: 64px;
+    color: #BDBDBD;
+}
+
+.fotografiya {
+    font-size: 64px;
+    line-height: 64px;
+    color: #333333;
+}
+
+.hr-menu {
+    /* border:1px solid #F2F2F2; */
+    margin: 30px 0px;
+    height: 1px;
+}
+
+.menu-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+/* .menu-list li{
+    display: flex;
+    
+} */
+.menu-list-first {
+    width: 210px;
+    height: 260px;
+}
+
+.menu-list-first-word {
+    width: 210px;
+    height: 120px;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 20px;
+}
+
+.menu-list-first img {
+    width: 210px;
+    height: 140px;
+
+}
+
+.menu-icons {
+    margin-top: 60px;
+    display: flex;
+}
+
+.menu-icons-word {
+    display: flex;
+    margin: 15px 26px 0px 0px;
+}
+
+.menu-icons-word img {
+    margin: 0px 31px 0px 25px;
+
+}
+
+.menu-icons p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    /* color: #333333; */
+}
+
+.menu-icons_02 {
+    color: #BDBDBD;
+}
+
+.menu-icons-image {
+    display: flex;
+    column-gap: 22.94px;
+}
+
+footer {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    background: #2C2C2C;
+}
+
+.footer-menu {
+
+    margin: 120px 0px 0px 0px;
+    height: 417px;
+    width: 1440px;
+
+}
+
+.footer-list {
+    display: flex;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.footer-logo {
+    margin: 58px 99px 0px 0px
+}
+
+ul {
+    list-style: none;
+}
+
+.footer-informatsiya {
+    margin: 58px 157px 0px 0px;
+    height: 229px;
+}
+
+.footer-kontakti {
+    margin: 58px 71px 0px 0px;
+}
+
+.footer-seti {
+    margin: 58px 0px 0px 0px;
+}
+
+.footer-informatsiya li {
+    width: 103px;
+    height: 20px;
+    margin: 0px 16px 0px 0px;
+}
+
+.footer-informatsiya-first {
+    padding: 0px 0px 25px 0px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.footer-informatsiya-first:first-child {
+    margin-bottom: 25px;
+}
+
+.footer-kontakt-list {
+    display: flex;
+}
+
+.footer-kontakt-list-first {
+    margin: 25px 0px 0px 0px;
+}
+
+.footer-kontakt-list-second {
+    padding: 25px 0px 32px 19px;
+    width: 314px;
+    height: 72px;
+}
+
+.footer-kontakt-list_2 ul {
+    display: flex;
+}
+
+.footer-kontakt-list_2_first {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.footer-kontakt-list_2_second {
+    padding: 0px 0px 0px 13.99px;
+    width: 314px;
+    height: 24px;
+}
+
+.footer-kontakt-list_3 {
+    display: flex;
+}
+
+.footer-kontakt-list_3_second {
+    margin: 32px 0px 0px 14px;
+    width: 181px;
+    height: 24px;
+}
+
+.footer-kontakt-list_3_first {
+    padding: 32px 0px 0px 0px;
+}
+
+.seti-list {
+    display: flex;
+}
+
+.seti-list li {
+    padding-right: 40px;
+    padding-top: 26px;
+}
+
+.border {
+    border: 0.1px solid #FFF;
+    margin-bottom: 70px;
+}
+
+.manzil {
+    width: 1440px;
+    height: 22px;
+    margin-right: 591px;
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    display: flex;
+    justify-content: center;
+
+    color: rgba(200, 200, 200, 0.5);
+}
+
+.menu-project-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-project-list-word {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.introduct {
+    display: flex;
+    height: 435px;
+    background: #FBFBFB;
+}
+
+.introduct h2 {
+    width: 440px;
+    height: 100px;
+    font-weight: 300;
+    font-size: 40px;
+    color: #BDBDBD;
+    margin: 30px 30px 20px 30px;
+}
+
+.intorduct-word p {
+    width: 400px;
+    height: 120px;
+    margin: 0px 70px 64px 30px;
+}
+
+.intorduct-word button {
+    width: 222px;
+    height: 71px;
+    margin-left: 30px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+    background: #FFF;
+    cursor: pointer;
+}
+
+.intorduct-word button img {
+    margin-left: 15px;
+}
+
+.Project-menu-foto {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px 0px;
+}
